@@ -1,0 +1,74 @@
+.navbar-brand {
+  display: none;
+}
+a:hover {
+  text-decoration: none !important;
+}
+#mainh1 {
+  font-family: "Dancing Script", cursive !important;
+  font-size: 3rem;
+  margin-bottom: 0 !important;
+  color: #76b3b8 !important;
+}
+
+#navbars .bg-light {
+  width: 75%;
+  margin: 0 auto;
+  background-color: #fff !important;
+  border: none;
+  border-radius: 0.625rem;
+  box-shadow: 0 0.46875rem 2.1875rem rgba(90, 97, 105, 0.1),
+    0 0.9375rem 1.40625rem rgba(90, 97, 105, 0.1),
+    0 0.25rem 0.53125rem rgba(90, 97, 105, 0.12),
+    0 0.125rem 0.1875rem rgba(90, 97, 105, 0.1);
+
+  margin-bottom: 3rem;
+}
+
+/* #angelloCarrousel {
+ width: 55vw;
+ margin: 0 auto;
+} */
+
+.card {
+  width: 50%;
+  margin: 5rem auto;
+  color: #76b3b8 !important;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+#angelloCarrousel-mobile {
+  display: none;
+}
+
+@media (max-width: 992px) {
+  #headingSite {
+    display: none;
+  }
+
+  .navbar-brand {
+    display: block;
+    font-family: "Dancing Script", cursive !important;
+    font-size: 1.5rem;
+    color: #76b3b8 !important;
+  }
+  #navbars .bg-light {
+    margin-bottom: 0;
+    width: 100%;
+  }
+
+  .card {
+    width: 100%;
+    margin: 1rem auto;
+  }
+}
+
+@media (max-width: 750px) {
+  #angelloCarrousel-mobile {
+    display: block;
+  }
+  #angelloCarrousel {
+    display: none;
+  }
+}
