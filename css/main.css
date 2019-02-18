@@ -42,6 +42,7 @@ a:hover {
   margin: 2.5rem;
 }
 
+/* audiovisuales*/
 .iframe-container {
   overflow: hidden;
   padding-top: 56.25%;
@@ -62,6 +63,9 @@ a:hover {
   padding-top: 75%;
 }
 
+/*fin audiovisuales*/
+
+/*fotografia section*/
 .gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(225px, 1fr));
@@ -70,6 +74,16 @@ a:hover {
 
 .gallery-item img {
   width: 100%;
+}
+/*end fotografia section*/
+
+/*about me*/
+.sobreMi-heading {
+  font-size: 1.75rem;
+  margin-bottom: 0;
+}
+.sobreMi-p {
+  padding-top: 1.75rem;
 }
 
 @media (max-width: 992px) {
