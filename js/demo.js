@@ -90,7 +90,7 @@
             $(".slide-in").each(function() {
               $(this).addClass("visible");
             });
-          }, 1000);
+          }, 3000);
 
           // Enable popovers everywhere.
           $('[data-toggle="popover"]').popover();
